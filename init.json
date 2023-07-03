@@ -1,0 +1,62 @@
+[
+  {
+    "httpRequest": {
+      "path": "/api/users",
+      "method": "GET"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": {
+        "message": "Response for GET /api/users"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/api/users",
+      "method": "POST"
+    },
+    "httpResponse": {
+      "statusCode": 201,
+      "body": {
+        "message": "Response for POST /api/users"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/api/users/{userId}",
+      "method": "GET"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": {
+        "message": "Response for GET /api/users/{userId}"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/api/users/{userId}",
+      "method": "PUT"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": {
+        "message": "Response for PUT /api/users/{userId}"
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/api/users/{userId}",
+      "method": "DELETE"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": {
+        "message": "Response for DELETE /api/users/{userId}"
+      }
+    }
+  }
+]

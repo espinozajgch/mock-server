@@ -1,0 +1,36 @@
+[
+    {
+      "httpRequest": {
+        "path": "/api/users",
+        "method": "GET"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": {
+          "message": "Response for /api/users"
+        }
+      }/*,
+      "timeToLive" : {
+        "timeUnit" : "SECONDS",
+        "timeToLive" : 60,
+        "unlimited" : false
+      }/**/
+    },
+    {
+      "httpRequest": {
+        "path": "/api/products",
+        "method": "GET"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": {
+          "message": "Response for /api/products"
+        }
+      }/*,
+      "times": {
+        "remainingTimes": 3,
+        "unlimited": false
+      }/**/
+    }
+]
+  
